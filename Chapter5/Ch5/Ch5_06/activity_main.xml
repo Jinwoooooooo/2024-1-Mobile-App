@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="40dp"
+        android:text="제일 좋아하는 애완동물은?"
+        android:textSize="20sp"></TextView>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="새" />
+
+        <RadioButton
+            android:id="@+id/radio_button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강아지" />
+
+        <RadioButton
+            android:id="@+id/radio_button_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고양이" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/show_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이미지 보기" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</LinearLayout>
