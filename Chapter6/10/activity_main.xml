@@ -1,0 +1,24 @@
+<!-- activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnOpenSubActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="서브 액티비티로부터 문자열 반환받기"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tvReturnedString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnOpenSubActivity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="반환된 문자열:"
+        android:textSize="18sp"/>
+</RelativeLayout>
