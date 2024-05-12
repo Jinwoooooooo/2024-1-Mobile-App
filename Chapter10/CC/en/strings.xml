@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recipe Example</string>
+    <string name="text">1. Slather on your burger sauce \n
+2. Top it with your burger patty with its mantle of melted cheese.\n
+3. Add onions, pickles, tomato, and lettuce.\n
+4. Spread mayonnaise onto the top bun and put that lid on your burger!</string>
+</resources>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">요리법 예제</string>
+    <string name="text">1. 오이, 당근, 시금치를 데쳐서 준비한다.\n
+    2. 계란도 노릇노릇 지단을 만들어 준다. \n
+    3. 밥에 소금 약간 넣어주고 참기름 한큰술 넣어주고 깨소금을 넣어준다. \n
+    4. 밥을 김에 골고루 펴주어 재료를 얻고 싸주면 완성 </string>
+</resources>
+
